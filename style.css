@@ -51,6 +51,7 @@ body {
 .second {
     height: 33vh;
     background-color: white;
+    align-items: center;
 }
 
 .form-main-div {
@@ -77,7 +78,40 @@ input:focus {
     border: 1px solid blue;
 }
 
-.third {
+label {
+    font-size: 10px;
+    color:#3b3b3c;
+}
 
+#error-msj {
+    color: red;
+    font-size: 10px;
+    margin: 1px;
+}
+
+.btn-green {
+    background-color: #596D48;
+    color: white;
+    border: 1px solid #596D48;
+    border-radius: 10px;
+    height: 40px;
+    width: 175px;
+    font-weight: bolder;
+    font-size: small;
+}
+.third {
+    margin-left: 50px;
+    margin-top: 25px;
     height: 33vh;
+}
+
+.hyperlink {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
 }
